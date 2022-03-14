@@ -89,16 +89,11 @@ body
 
 }
 .footer{
-        display:flex;
+        width:100%;
+        display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(192, 197, 201);
-        width: 100%;
-        margin-top:76px;
-        padding-left: 1px;
-        border-top-left-radius:25px 25px;
-        border-top-right-radius:25px 25px;
-        
-
+        flex-direction: row;
+        margin-top: 5%;
 }
 
