@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <link rel="stylesheet" href="index.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>form validation</title>
-</head>
-<body>
-        <div class="main">
-                <header class="navbar">
-                        <div class="title">
-                                <h1>FORM VALIDATION</h1>
-                        </div>
-                </header>
-                
-                
-        <div class="form_container">
-                <form id="form" class="form" action="hello.html">
-                        <label for="name">ENTER YOUR NAME:</label>
-                        <br>
-                        <br>
-                        <input class="text_box" id="name" type="text">
-                        <br>
-                        <br>
-                        <label for="dob">ENTER YOUR DOB</label>
-                        <br>
-                        <br>
-                        <input class="text_box" id="dob" type="text">
-                        <br>
-                        <br>
-                        <label for="branch">SELECT THE DEPARTMENT</label>
-                        <br>
-                        <br>
-                        <select id="branch">
-                                <option value="IT">IT</option>
-                                <option value="CSE">CSE</option>
-                                <option value="ECE">ECE</option>
-                                <option value="AIDS">AIDS</option>
-                                <option value="EEE">EEE</option>
-                                <option value="MECH">MECH</option>
-                                <option value="CIVIL">CIVIL</option>
-                        </select>
-                        <br>
-                        <br>
-                        <input onclick=validate() type="button" class="btn" value="submit">
-
-                </form>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+  </head>
+  <body>
+    <div class="main">
+      <header class="navbar">
+        <div class="title">
+          <h1>FORM VALIDATION</h1>
         </div>
-</div>
-<footer class="footer">
-       <div class="footer_container">
-        <h2 class=" footer_text">Copyrights&copy; from 1998-2022 .All rights are reserved</h2>
-       </div>
-                
-        
-</footer>
-        <script src="index.js"></script>
-</body>
+      </header>
+
+      <div class="form_container">
+        <form id="form" class="form" action="hello.html">
+          <label for="name">ENTER YOUR NAME:</label>
+          <br />
+          <br />
+          <input class="text_box" id="name" type="text" />
+          <br />
+          <br />
+          <label for="dob">ENTER YOUR DOB</label>
+          <br />
+          <br />
+          <input class="text_box" id="dob" type="text" />
+          <br />
+          <br />
+          <label for="branch">SELECT THE DEPARTMENT</label>
+          <br />
+          <br />
+          <select id="branch">
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="AIDS">AIDS</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+          </select>
+          <br />
+          <br />
+          <input
+            onclick="validate()"
+            type="button"
+            class="btn"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer_container">
+        <h2 class="footer_text">
+          Copyrights&copy; from 1998-2022 .All rights are reserved
+        </h2>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
+
